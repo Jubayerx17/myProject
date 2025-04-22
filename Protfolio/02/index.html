@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jubayer-Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Jubayer's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          The name's<span class="text-purple"> Jubayer</span>
+          <div>and I specialize in</div>
+          <span id="element"></span>
+
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <img src="img/bg.png" alt="BackgroundImage" class="bgImg" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What I done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="img/html.png" alt="HTML logo" class="verticalImage" />
+            <div class="verticalText">As a HTML developer</div>
+            <div class="verticalDsc">
+              An HTML developer is responsible for building the structure of
+              websites using HTML. They ensure web pages are well-organized,
+              functional, and visually appealing. Collaborating with designers
+              and developers, they create user-friendly and accessible web
+              experiences.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/css.PNG" alt="HTML logo" class="verticalImage" />
+            <div class="verticalText">As a CSS developer</div>
+            <div class="verticalDsc">
+              A CSS developer specializes in styling websites using Cascading
+              Style Sheets (CSS) to make them visually appealing and
+              user-friendly. They handle layout designs, animations, and
+              responsive features for various devices. Their role ensures
+              websites have consistent, attractive, and professional designs.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/js.png" alt="HTML logo" class="verticalImage" />
+            <div class="verticalText">As a JS developer</div>
+            <div class="verticalDsc">
+              A JavaScript developer focuses on creating dynamic, interactive
+              elements for websites and applications using JavaScript. They
+              build features like animations, forms, and real-time updates to
+              enhance user experience. Their role ensures functionality and
+              seamless interaction across various devices and browsers.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/react.png" alt="HTML logo" class="verticalImage" />
+            <div class="verticalText">As a REACT developer</div>
+            <div class="verticalDsc">
+              A React developer specializes in building user interfaces using
+              the React library. They create dynamic, reusable components and
+              ensure seamless functionality across web applications. Their work
+              focuses on delivering fast, interactive, and responsive user
+              experiences.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/node.png" alt="HTML logo" class="verticalImage" />
+            <div class="verticalText">As a NODE JS developer</div>
+            <div class="verticalDsc">
+              A Node.js developer builds server-side applications and APIs using
+              Node.js, a JavaScript runtime. They handle back-end logic,
+              database integration, and optimize application performance. Their
+              work ensures fast, scalable, and efficient server-side
+              functionality.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="footer-first">Jubayer's Developer Portfolio</div>
+          <div class="footer-second">
+            <div class="footerInfoTitle">Discover</div>
+            <ul>
+              <li><a href="/">JS course</a></li>
+              <li><a href="/">React course</a></li>
+              <li><a href="/">FrontEnd course</a></li>
+            </ul>
+          </div>
+          <div class="footer-third">
+            <div class="footerInfoTitle">About</div>
+            <ul>
+              <li><a href="/">My life</a></li>
+              <li><a href="/">Careers</a></li>
+              <li><a href="/">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-fourth">
+            <div class="footerInfoTitle">Social</div>
+            <ul>
+              <li><a href="/">LikedIn</a></li>
+              <li><a href="/">Facebook</a></li>
+              <li><a href="/">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-right">
+          Copyright &#169;jubayersportfolio.com | All right reserved
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Development",
+          "Graphic Design",
+          "Web Design",
+          "Video Edit",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
