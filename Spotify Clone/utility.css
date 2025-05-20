@@ -1,0 +1,57 @@
+.flex{
+  display: flex;
+}
+.justifyCenter{
+  justify-content: center;
+}
+.alignCenter{
+  align-items: center;
+}
+
+.icon{
+  width: 25px;
+}
+.invertBtoW{
+  filter: invert(1);
+}
+
+.aStyle{
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+}
+.liStyle{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+.bgBlack{
+  background-color: black;
+  color: white;
+}
+.bgGray{
+  background-color: #1F1F1F;
+}
+
+.containerRadius{
+  border-radius: 7px;
+}
+
+.m1{
+  margin: 7px 16px;
+}
+.p1{
+  padding: 7px 16px;
+}
+
+.aStyleForFooter{
+  
+  
+}
+
+.containerMargin{
+  margin: 8px 5px;
+}
