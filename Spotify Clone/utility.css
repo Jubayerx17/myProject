@@ -17,7 +17,7 @@
 
 .aStyle{
   text-decoration: none;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 600;
   color: white;
 }
@@ -35,6 +35,9 @@
 .bgGray{
   background-color: #1F1F1F;
 }
+.bgSlightGray{
+  background-color:#121212;
+}
 
 .containerRadius{
   border-radius: 7px;
@@ -46,12 +49,10 @@
 .p1{
   padding: 7px 16px;
 }
-
-.aStyleForFooter{
-  
-  
-}
-
 .containerMargin{
   margin: 8px 5px;
+}
+
+.colorGray{
+  color: #dadadaa1;
 }
