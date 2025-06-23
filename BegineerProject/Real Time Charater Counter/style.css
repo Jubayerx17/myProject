@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: rgb(65, 40, 37);
+  font-family: cursive;
+  color: white;
+}
+
+.container{
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  background: rgb(73, 69, 70);
+}
+.textArea{
+  resize: none;
+  height: 100px;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 10px;
+  border: 2px solid darkgray;
+  outline: none;
+  border-radius: 10px;
+}
+
+p{
+  font-size: 18px
+}
+p .counter{
+  color: rgb(218, 177, 162);
+}

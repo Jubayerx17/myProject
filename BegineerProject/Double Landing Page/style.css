@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  overflow: hidden;
+}
+
+.box {
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+.apple {
+  position: absolute;
+  left: 0;
+  background: #706969;
+  background: url("https://www.apple.com/newsroom/images/product/iphone/geo/apple_iphone-12_new-design_geo_10132020_big.jpg.medium_2x.jpg");
+  background-size: cover;
+}
+.samsung {
+  position: absolute;
+  right: 0;
+  background: url("https://es.digitaltrends.com/wp-content/uploads/2025/01/Precios-Galaxy-S25-Mexico.jpeg?resize=1200%2C720&p=1");
+  background-size: cover;
+}
+h1 {
+  font-size: 100px;
+  color: rgb(123 193 255);
+  backdrop-filter: brightness(0.5);
+}
+
+.btn {
+  background: #000;
+  color: white;
+  font-weight: bold;
+  padding: 20px 40px;
+  cursor: pointer;
+  border: 4px solid;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+.btn:hover {
+  background: rgba(136, 109, 109, 0.445);
+}
+
+
+.activeLeft .apple{
+  width: 75%;
+  transition: 1s ease-in;
+}
+
+.activeLeft .samsung{
+  width: 25%;
+  transition: .5s;
+}
+
+.activeRight .apple{
+  width: 25%;
+  transition: .5s;
+}
+
+.activeRight .samsung{
+  width: 75%;
+   transition: 1s ease-in;
+}
+
