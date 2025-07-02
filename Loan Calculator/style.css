@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container{
+  background: #007E8E;
+  padding: 20px;
+  color: aliceblue;
+  border-radius: 20px;
+}
+.inputBox{
+  width: 100%;
+  font-size: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+}
